@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <Denia Casimiro>_
+_by Denia Casimiro_
 
 ---
 ## Git vs. GitHub
