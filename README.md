@@ -25,7 +25,10 @@ Wanna create a repo? but dont know how? Don't worry I'll help you!
 2. Type a short, memorable name for your repository. For example, "first-repo".
 3. Optionally, add a description of your repository. For example, "My first repository on GitHub." or "First Repo Code"
 4. Choose to make the repository either public or private.
+5. Select Initialize this repository with a README.
+6. Click Create repository.
 
+Congratulations! You've successfully created your first repository, and initialized it with a README file.
 
 ---
 ## Workflow & Commands
