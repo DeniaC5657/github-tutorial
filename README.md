@@ -32,8 +32,14 @@ Congratulations! You've successfully created your first repository, and initiali
 
 ---
 ## Workflow & Commands
-
+There are many Git workflows out there
 
 
 ---
 ## Rolling Back Changes
+Even the fastest coders do make some mistakes, and that's okay! But if you made a mistake and don't know how to fix it? Don't worry!
+1. ALWAYS READ YOUR CODE BEFORE CONFIRMING ANYTHING!
+2. Even when you add an extra/miss a letter, you can retype the code again
+3. But if you want to rename a file, you can used mv ,but you need to be outside of your file in order to do any renaming
+
+If there's anything you want to remove the file and everything in the file itself, you can used ( rm -rf )
