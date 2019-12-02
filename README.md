@@ -20,7 +20,11 @@ Ready to start coding! But don't know how to make an account! Don't worry I got 
 
 ---
 ## Repository Setup
-
+Wanna create a repo? but dont know how? Don't worry I'll help you!
+1. In the upper-right corner of any page, use the  drop-down menu, and select New repository.
+2. Type a short, memorable name for your repository. For example, "first-repo".
+3. Optionally, add a description of your repository. For example, "My first repository on GitHub." or "First Repo Code"
+4. Choose to make the repository either public or private.
 
 
 ---
