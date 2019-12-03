@@ -32,7 +32,8 @@ Congratulations! You've successfully created your first repository, and initiali
 
 ---
 ## Workflow & Commands
-There are many Git workflows out there
+There are many Git workflows out there. A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git offers a lot of flexibility in how users manage changes. Given Git's focus on flexibility, there is no standardized process on how to interact with Git.
+
 
 
 ---
