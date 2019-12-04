@@ -42,7 +42,7 @@ Now let's create a README.md file inside so that you're able to type any code yo
           It should look like `~/first repo/ (master) $ touch README.md`
   2. Secondly, type in `c9 README.md` to go open this file in a new tab in your ide.cs50
           It should look like  `~/first repo/ (master) $ c9 README.md`
-  3. Thridly, it should now see 2 tabs next to each other and you should be in the blank README.md file.
+  3. Thirdly, it should now see 2 tabs next to each other and you should be in the blank README.md file.
 
 To save this file, (On MAC) You can either click on File > Save or command + S or (On a PC) Ctrl + S
 (Both way should change the red dot to the color green_)
@@ -58,9 +58,23 @@ There are many Git workflows out there. A Git Workflow is a recipe or recommenda
 
 ---
 ## Rolling Back Changes
-Even the fastest coders do make some mistakes, and that's okay! But if you made a mistake and don't know how to fix it? Don't worry!
-1. ALWAYS READ YOUR CODE BEFORE CONFIRMING ANYTHING!
-2. Even when you add an extra/miss a letter, you can retype the code again
-3. But if you want to rename a file, you can used mv ,but you need to be outside of your file in order to do any renaming
 
-If there's anything you want to remove the file and everything in the file itself, you can used ( rm -rf )
+Even the fastest coders do make some mistakes, and that's okay! But if you made a mistake and don't know how to fix it? Don't worry!
+In order to get rid of any changes we would have to do the command `git checkout --<file>...`
+##### How do you undo an edit?
+* To undo an edit you’ll have to type in the command `git checkout --filename`.
+
+##### How do you undo a commit?
+* To  undo a commit you would need to type, `git reset --soft HEAD~1`. This command will delete the last commit you've made and reset to a past commit you would like back. This is a very useful tool to see what you did during your code.
+
+##### How do you undo something you have added to the stage?
+* To undo something you have added on the stage you’ll have to type in `git reset HEAD filename`.
+
+#####  How do you undo something that you have pushed already?
+*  To undo a push commit you can do `git revert`. You could also do `git reset --hard HEAD~1` to remove 1 or multiple commits you have made in the past. But do check you’re undoing a correct push.
+
+##### How do you undo a commit, something you've added to the stage, and an edit?
+* By doing `git reset --hard HEAD~1` you will be deleting the things you've just added to the stage and any uncommitted changes.
+
+
+And that's it! You got the basics down and it's up to you! This is only the beginning!
