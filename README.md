@@ -57,7 +57,15 @@ Now that we have a README.md file, we can start typing in this file!
 2. Secondly type in "My first repository."
 3. Thirdly, that we have some text in the README.md file, let's click on the first-repo tab.
 4. Fourthly, you should be in the terminal, type in `git add .`
+(This command adds the file README.md  and its edits to the stage, also recored everything you edit or change. )
+5. Now that we have added everything to the stage, let's commit it. Type in `git commit -m "add text to first-repo"`
+( This command does is it "captures a photo of the stage" or records the change you have done before by naming it "add text to first-repo". Basically, in the future, you want to get something back that you may be deleted in the past, you can type in `git log` to get to see all the commits you've done and get the one you'd like back)
+6. Now, in order to a command known as `git push`, we'll have to create our remote repo in order to push the text we have in our file somewhere and we need to go through some other steps first.
 
+## _Git Push_
+
+  * Now, open up a new tab and go to http://github.com/
+  * Go to the top left corner and locate the green button that has a little book and reads "New", then click on it.
 
 
 
