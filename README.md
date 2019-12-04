@@ -15,17 +15,26 @@ _by Denia Casimiro_
 
 Ready to start coding! But don't know how to make an account! Don't worry I got you! To be able to use https://ide.cs50.io/, you will have to create an account in https://github.com/.
 1. Go to https://github.com/
-2. click on "**'Sign up'**" on the top right corner of the Main Page
+2. Click on "**Sign up**" on the top right corner of the Main Page
 3. **Create an account** There you will bring to a page that will let you enter your username, passwords and email. (_You can use your school email or your own personal email_)
-4. After you _confirmed_ everything with your account, go to https://github.com/hstatsep/ide50 and follow the steps stated there.
+4. After you **confirmed** everything with your account, go to https://github.com/hstatsep/ide50 and follow the steps stated there.
 
 *What is SSH key? & Why do we need to set up an SSH key between cs50 and GitHub?*
+
 SSH key is a way for your local and remote to be able to connect. Also the SSH key is a shortcut that generated an alternate route to identify yourself without having you type in your username and password every single time.
 
 
 ---
 ## Repository Setup
 Wanna create a repo? but dont know how? Don't worry I'll help you!
+
+1. Now let get started,  **create a directory**. You can name it whatever you like, but I’d recommend calling it “first-repo”. Do this by typing in `mkdir "first-repo"` You can practice your code on your very first repo.
+2. Make a `mkdir "first-repo"` into a repository, firstly, you need to **go into the directory** by doing `cd first-repo` and then secondly do `git init` to **initialize git**. Thirdly, after typing in `mkdir "first-repo"` you need to type in `cd "first-repo"` and then finally type in  `git init`. It should look like
+
+         * `mkdir first-repo`
+         * `cd first-repo`
+         * `git init`
+
 1. In the upper-right corner of any page, use the  drop-down menu, and select New repository.
 2. Type a short, memorable name for your repository. For example, "first-repo".
 3. Optionally, add a description of your repository. For example, "My first repository on GitHub." or "First Repo Code"
