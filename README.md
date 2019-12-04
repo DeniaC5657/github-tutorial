@@ -35,12 +35,18 @@ Wanna create a repo? but dont know how? Don't worry I'll help you!
          * `cd first-repo`
          * `git init`
 
-1. In the upper-right corner of any page, use the  drop-down menu, and select New repository.
-2. Type a short, memorable name for your repository. For example, "first-repo".
-3. Optionally, add a description of your repository. For example, "My first repository on GitHub." or "First Repo Code"
-4. Choose to make the repository either public or private.
-5. Select Initialize this repository with a README.
-6. Click Create repository.
+* It should say `~/first repo/ (master)`
+Now let's create a README.md file inside so that you're able to type any code you'll like in README.md file.
+
+1. Firstly, type in `touch README.md` to create a new blank file inside our directory named README.md
+          It should look like `~/first repo/ (master) $ touch README.md`
+  2. Secondly, type in `c9 README.md` to go open this file in a new tab in your ide.cs50
+          It should look like  `~/first repo/ (master) $ c9 README.md`
+  3. Thridly, it should now see 2 tabs next to each other and you should be in the blank README.md file.
+
+To save this file, (On MAC) You can either click on File > Save or command + S or (On a PC) Ctrl + S
+(Both way should change the red dot to the color green_)
+
 
 Congratulations! You've successfully created your first repository, and initialized it with a README file.
 
