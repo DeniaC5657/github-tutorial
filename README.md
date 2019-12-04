@@ -5,7 +5,9 @@ _by Denia Casimiro_
 ---
 ## Git vs. GitHub
 
-Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them
+Git: Is a version control system that runs in the command line that a system that lets you manage and keep track of your source code history. Such as editing, removing, renaming and etc. One of the biggest different is that Git can be used without having Github.
+
+GitHub: Is a cloud-based hosting service that lets you manage Git repositories. Saving all your code in the CLoud. This tool is very useful during collaborate with other coders, this tool also let you be able to interact with other Repositories and be able to see the changes of their project. If you have open-source projects that use Git, then GitHub is designed to help you better manage them. Plus Github _does_ require GIt.
 
 
 ---
