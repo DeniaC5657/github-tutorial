@@ -66,7 +66,22 @@ Now that we have a README.md file, we can start typing in this file!
 
   * Now, open up a new tab and go to http://github.com/
   * Go to the top left corner and locate the green button that has a little book and reads "New", then click on it.
+  * Type in the repository name. Such ass type in _first-repo_ *_exactly_* the _same_ as you have it named.
+  * When you're done, you can include a description if you would like to, but you don't have to. It not required.
+  * Skip the _last step_, because we already have a README file in our first-repo that we made in our ide.cs50.
+  * Click on the green button _Create Repository_
 
+What does the command`git add remote origin (URL)` do?
+            * This command sets up a connection between our repository in our CS50 IDE and the new repository that lives on GitHub, saving every code that we put inside. The URL should be github.com:_yourusername_/first-repo.git
+
+What does the command `git push -u origin master` mean?
+            *  This command is done in order to send any changes or edits we've made from our local CS50 IDE to our remote repo which is on GitHub. The -u means upstream means that it will remember to push our changes to our remote repo whenever we type in `git push` in the future. Pushing everything we did and saving it so we use it in the future.
+
+ * Make sure you are in your _first-repo_. Copy those 2 lines of code and then paste them into your command line in the CS50 IDE.
+   * Now go back to github and refresh the page. You should see "My first repository."
+   * Keep adding any text you'd like and repeat using git add, git commit, and git push.
+
+There you go! You learn three new commands!
 
 
 ---
