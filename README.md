@@ -72,10 +72,12 @@ Now that we have a README.md file, we can start typing in this file!
   * Click on the green button _Create Repository_
 
 What does the command`git add remote origin (URL)` do?
-            * This command sets up a connection between our repository in our CS50 IDE and the new repository that lives on GitHub, saving every code that we put inside. The URL should be github.com:_yourusername_/first-repo.git
+
+        This command sets up a connection between our repository in our CS50 IDE and the new repository that lives on GitHub, saving every code that we put inside. The URL should be github.com:_yourusername_/first-repo.git
 
 What does the command `git push -u origin master` mean?
-            *  This command is done in order to send any changes or edits we've made from our local CS50 IDE to our remote repo which is on GitHub. The -u means upstream means that it will remember to push our changes to our remote repo whenever we type in `git push` in the future. Pushing everything we did and saving it so we use it in the future.
+
+        This command is done in order to send any changes or edits we've made from our local CS50 IDE to our remote repo which is on GitHub. The -u means upstream means that it will remember to push our changes to our remote repo whenever we type in `git push` in the future. Pushing everything we did and saving it so we use it in the future.
 
  * Make sure you are in your _first-repo_. Copy those 2 lines of code and then paste them into your command line in the CS50 IDE.
    * Now go back to github and refresh the page. You should see "My first repository."
@@ -89,19 +91,19 @@ There you go! You learn three new commands!
 
 Even the fastest coders do make some mistakes, and that's okay! But if you made a mistake and don't know how to fix it? Don't worry!
 In order to get rid of any changes we would have to do the command `git checkout --<file>...`
-##### How do you undo an edit?
+## _How do you undo an edit?_
 * To undo an edit you’ll have to type in the command `git checkout --filename`.
 
-##### How do you undo a commit?
+## _How do you undo a commit?_
 * To  undo a commit you would need to type, `git reset --soft HEAD~1`. This command will delete the last commit you've made and reset to a past commit you would like back. This is a very useful tool to see what you did during your code.
 
-##### How do you undo something you have added to the stage?
+## _How do you undo something you have added to the stage?_
 * To undo something you have added on the stage you’ll have to type in `git reset HEAD filename`.
 
-#####  How do you undo something that you have pushed already?
+## _How do you undo something that you have pushed already?_
 *  To undo a push commit you can do `git revert`. You could also do `git reset --hard HEAD~1` to remove 1 or multiple commits you have made in the past. But do check you’re undoing a correct push.
 
-##### How do you undo a commit, something you've added to the stage, and an edit?
+## _How do you undo a commit, something you've added to the stage, and an edit?_
 * By doing `git reset --hard HEAD~1` you will be deleting the things you've just added to the stage and any uncommitted changes.
 
 
