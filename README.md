@@ -52,7 +52,12 @@ Congratulations! You've successfully created your first repository, and initiali
 
 ---
 ## Workflow & Commands
-There are many Git workflows out there. A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. Git offers a lot of flexibility in how users manage changes. Given Git's focus on flexibility, there is no standardized process on how to interact with Git.
+Now that we have a README.md file, we can start typing in this file!
+1. Now, make sure that we are inside the blank README.md file.
+2. Secondly type in "My first repository."
+3. Thirdly, that we have some text in the README.md file, let's click on the first-repo tab.
+4. Fourthly, you should be in the terminal, type in `git add .`
+
 
 
 
@@ -77,4 +82,4 @@ In order to get rid of any changes we would have to do the command `git checkout
 * By doing `git reset --hard HEAD~1` you will be deleting the things you've just added to the stage and any uncommitted changes.
 
 
-And that's it! You got the basics down and it's up to you! This is only the beginning!
+And that's it! You got the basics down! This is only the beginning! Start coding and having fun!
