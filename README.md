@@ -66,7 +66,7 @@ Now that we have a README.md file, we can start typing in this file!
 
   * Now, open up a new tab and go to http://github.com/
   * Go to the top left corner and locate the green button that has a little book and reads "New", then click on it.
-  * Type in the repository name. Such ass type in _first-repo_ *_exactly_* the _same_ as you have it named.
+  * Type in the repository name. Such as type in _first-repo_ *_exactly_* the _same_ as you have it named.
   * When you're done, you can include a description if you would like to, but you don't have to. It not required.
   * Skip the _last step_, because we already have a README file in our first-repo that we made in our ide.cs50.
   * Click on the green button _Create Repository_
